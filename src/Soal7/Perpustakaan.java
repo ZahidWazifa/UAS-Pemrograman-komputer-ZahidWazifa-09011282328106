@@ -7,7 +7,7 @@ public class Perpustakaan {
     private String judul;
     private String penulis;
     private int tahunTerbit;
-    private Status_peminjaman status_peminjaman; // Corrected here
+    private Status_peminjaman status_peminjaman; 
 
     public String getJudul() {
         return judul;
@@ -30,12 +30,12 @@ public class Perpustakaan {
     }
 
     public String getStatus_peminjaman() {
-        return status_peminjaman.name(); // Corrected here
+        return status_peminjaman.name(); 
     }
     public void setStatus_peminjaman(Status_peminjaman status_peminjaman) {
         this.status_peminjaman = status_peminjaman;
     }
-    Perpustakaan(String judul, String penulis, int tahunTerbit, Status_peminjaman status_peminjaman){ // Corrected here
+    Perpustakaan(String judul, String penulis, int tahunTerbit, Status_peminjaman status_peminjaman){ 
         this.judul = judul;
         this.penulis = penulis;
         this.tahunTerbit = tahunTerbit;
