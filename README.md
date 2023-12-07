@@ -1,7 +1,7 @@
 ### ASSALAMU'ALAIKUM WR.WB
 
 # 😁Tentang saya
-Hi, perkenalkan nama zahid wazifa  say merupakan mahasisiwa Universitas Sriwijaya program studi Sistem Komputer dalam repository ini akan dibahas mengenai pembahasan UAS Pemograman 
+Hi, perkenalkan nama zahid wazifa  saya merupakan mahasisiwa Universitas Sriwijaya program studi Sistem Komputer dalam repository ini akan dibahas mengenai pembahasan UAS Pemograman 
 komputer
 
 # Language Type
@@ -23,7 +23,7 @@ Tampilkan total harga setelah diskon.**
 - **Buatlah kelas Java untuk mengelola buku-buku dalam suatu perpustakaan. Setiap buku memiliki atribut judul, penulis, dan tahun terbit. Implementasikan metode untuk menampilkan  
   informasi buku dan metode untuk meminjam buku.**
 - **Buat kelas Java untuk mengelola akun pengguna. Setiap akun memiliki atribut username, password, dan status aktif/nonaktif. Implementasikan metode untuk mengaktifkan atau 
-    menonaktifkan akun.
+    menonaktifkan akun.**
 - **Buat program Java yang menggunakan struktur data stack untuk memeriksa apakah urutan kurung buka dan kurung tutup pada suatu ekspresi matematika sudah benar.**
 - **Buatlah repositori baru di GitHub dengan nama "UAS-Pemrograman komputer-Nama-NIM".**
 - **Inisialisasikan repositori tersebut di komputer lokal -Anda.**
