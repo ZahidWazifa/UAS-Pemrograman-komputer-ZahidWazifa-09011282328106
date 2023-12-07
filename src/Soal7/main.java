@@ -34,6 +34,7 @@ public class main {
             System.out.println("2. Pinjam buku");
             System.out.println("3. Cek status peminjaman buku");
             System.out.println("4. Keluar");
+            // !try catch digununakan untuk menangkap error jika input bukan integer
             try {
                 System.out.print("Pilih opsi: ");
                 choose = input.nextInt();

@@ -3,6 +3,7 @@ import java.util.List;
 
 
 public class Perpustakaan {
+    // ? gunakan private agar data tetap original
     private String judul;
     private String penulis;
     private int tahunTerbit;

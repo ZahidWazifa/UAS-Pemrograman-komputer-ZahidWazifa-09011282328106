@@ -2,7 +2,7 @@ package Soal3;
 
 public class fibonanci_class {
     int a =0,b=0,c =1,result;
-
+// ? method untuk menghitung deret fibonanci
     public void fibonanci(int n){
         if(n >0){
             if (a <=1){

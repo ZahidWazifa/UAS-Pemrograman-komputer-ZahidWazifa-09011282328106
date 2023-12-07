@@ -37,6 +37,7 @@ public class Database {
     public void setStock_Barang(double stock_Barang) {
         Stock_Barang = stock_Barang;
     }
+    // ? Constructor untuk menambahkan data ke database
 
     Database(String Barang, double harga_barang, double Stock_Barang){
         this.Barang = Barang;

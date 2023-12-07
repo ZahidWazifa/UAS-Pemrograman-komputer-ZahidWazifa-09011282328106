@@ -13,6 +13,7 @@ public class main {
         Scanner input = new Scanner(System.in);
         Stack<Character> stack = new Stack<>();
         short choose;
+        // ? menu untuk memasukkan ekspresi matematika dan mengecek ekspresi matematika
         do {
             System.out.println("1. Masukkan ekspresi matematika anda");
             System.out.println("2. Cek ekspresi matematika");
@@ -36,6 +37,7 @@ public class main {
         } while (choose != 3);
         input.close();
     }
+    // TODO: method yang digunakan untuk  mencari tahu apakah posisi kurung sudah benar.
 
     public static boolean isBalanced(String expression) {
         Stack<Character> stack = new Stack<>();

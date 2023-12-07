@@ -12,7 +12,7 @@ public class main {
         System.out.print("Masukkan kata: ");
         String kata = input.nextLine();
         Palindrom palindrom = new Palindrom();
-//        ?menggunkan try catch untuk menangkap error dan menyampaikan pesan error.
+//!        menggunakan try catch untuk menangkap error jika kata bukan palindrom
         try {
             if (palindrom.ispalindrome(kata.toCharArray())) {
                 System.out.println("Palindrom");

@@ -1,9 +1,11 @@
 package Soal8;
 
 public class Login {
+    // ? gunakan private agar data tetap original
     private String username;
     private String password;
     private Status status;
+    // ? constructor untuk menambahkan data ke database
 
     public Login(String username, String password, Status status) {
         this.username = username;
