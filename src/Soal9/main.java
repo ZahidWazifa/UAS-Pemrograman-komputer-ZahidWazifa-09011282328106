@@ -1,5 +1,5 @@
 package Soal9;
-//** */
+//** soal */
 /**
  * Buat program Java yang menggunakan struktur data stack 
  * untuk memeriksa apakah urutan kurung buka dan kurung 
