@@ -11,7 +11,7 @@ import java.util.Stack;
 public class main {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
-        String expression = "";
+        Stack<Character> stack = new Stack<>();
         short choose;
         do {
             System.out.println("1. Masukkan ekspresi matematika anda");
@@ -19,13 +19,18 @@ public class main {
             System.out.println("3. Keluar");
             System.out.print("Masukkan pilihan anda:");
             choose = input.nextShort();
-            input.nextLine(); // consume the newline character
+            input.nextLine();
             if (choose == 1) {
-                System.out.println("Masukkan ekspresi matematika:");
-                expression = input.nextLine();
-                // Here you would normally store the expression in a database
+                System.out.print("Masukkan ekspresi matematika:");
+                String expression = input.nextLine();
+                for (char ch : expression.toCharArray()) {
+                    stack.push(ch);
+                }
             } else if (choose == 2) {
-                // Here you would normally retrieve the expression from the database
+                String expression = "";
+                while (!stack.isEmpty()) {
+                    expression = stack.pop() + expression;
+                }
                 System.out.println(isBalanced(expression) ? "Urutan sudah benar." : "Urutan tidak benar.");
             }
         } while (choose != 3);

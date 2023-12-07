@@ -24,7 +24,7 @@ public class main {
             System.out.println("3.keluar dari aplikasi");
             System.out.print("Masukkan pilihan anda:");
             choose = input.nextShort();
-            input.nextLine(); // consume the newline character
+            input.nextLine();
             if (choose ==1) {
                 System.out.print("masukkan username anda:");
                  username = input.nextLine();
@@ -44,8 +44,9 @@ public class main {
                         System.out.println("Status akun anda: " + log.getStatus());
                         System.out.print("Apakah anda ingin mengubah status akun anda ke AKTIF? (iya/tidak):");
                         String changeStatus = input.nextLine();
+//                        TODO:SET STATUS AKUN
                         if (changeStatus.equalsIgnoreCase("iya")) {
-                            log.setStatus(Status.AKTIF); // set the status to AKTIF
+                        log.setStatus(Status.AKTIF);
                             System.out.println("Status akun anda telah diubah ke: " + log.getStatus());
                         }
                     }
