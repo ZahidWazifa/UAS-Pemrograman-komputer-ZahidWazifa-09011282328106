@@ -9,7 +9,8 @@ public class main {
      * Seorang pelanggan sedang berbelanja di sebuah toko online. 
      * Terdapat sebuah barang dengan harga tertentu dan diskon berdasarkan jumlah pembelian. 
      * Implementasikan program Java untuk menghitung total harga yang harus dibayar oleh pelanggan. 
-     * Jika pelanggan membeli barang dengan jumlah kurang dari 5, tidak ada diskon.Jika pelanggan membeli barang antara 5 hingga 10, berikan diskon 5%.
+     * Jika pelanggan membeli barang dengan jumlah kurang dari 5, tidak ada diskon.
+     * Jika pelanggan membeli barang antara 5 hingga 10, berikan diskon 5%.
      * Jika pelanggan membeli barang antara 11 hingga 20, berikan diskon 10%.
      * Jika pelanggan membeli barang lebih dari 20, berikan diskon 20%.
      * Tampilkan total harga setelah diskon.
@@ -66,7 +67,7 @@ public class main {
                         double harga = item * selectedProduct.getHarga_barang();
                 
                         // mengecek apakah item memenuhi syarat diskon
-                        if (item<= 5) {
+                        if (item < 5) {
                             //? Diskon 5%
                             System.out.println("Anda tidak mendapatkan diskon");
                             
